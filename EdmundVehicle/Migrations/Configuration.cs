@@ -9,7 +9,8 @@ namespace EdmundVehicle.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(EdmundVehicle.DAL.VehicleContext context)

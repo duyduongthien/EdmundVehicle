@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using EdmundVehicle.DAL;
 
 namespace EdmundVehicle.Controllers
 {
@@ -11,7 +12,6 @@ namespace EdmundVehicle.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
-
             return View();
         }
     }
